@@ -13,4 +13,11 @@ public class IsUniqueTest {
         assertFalse(IsUnique.isUnique("aa"));
     }
 
+    @Test
+    public void stringIsUniqueASCIISolution() {
+        assertTrue(IsUnique.isUniqueChars("abcdef"));
+        assertTrue(IsUnique.isUniqueChars("abc def"));
+        assertFalse(IsUnique.isUniqueChars("aa"));
+    }
+
 }
