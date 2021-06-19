@@ -12,4 +12,11 @@ public class PermCheckerTest {
         assertTrue(PermChecker.checkIfStringsArePermutable("Aaa", "aAa"));
         assertTrue(PermChecker.checkIfStringsArePermutable("1122  cc", "1c1c  22"));
     }
+
+    @Test
+    public void checkForPermutationsForSecondSolution() {
+        assertTrue(PermChecker.permutation("abba", "baab"));
+        assertTrue(PermChecker.permutation("Aaa", "aAa"));
+        assertTrue(PermChecker.permutation("1122  cc", "1c1c  22"));
+    }
 }
