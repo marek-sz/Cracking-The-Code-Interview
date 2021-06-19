@@ -9,5 +9,7 @@ public class PermCheckerTest {
     @Test
     public void checkPermutations() {
         assertTrue(PermChecker.checkIfStringsArePermutable("abba", "baab"));
+        assertTrue(PermChecker.checkIfStringsArePermutable("Aaa", "aAa"));
+        assertTrue(PermChecker.checkIfStringsArePermutable("1122  cc", "1c1c  22"));
     }
 }
