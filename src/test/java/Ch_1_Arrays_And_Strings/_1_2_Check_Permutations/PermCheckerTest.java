@@ -1,8 +1,8 @@
 package Ch_1_Arrays_And_Strings._1_2_Check_Permutations;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class PermCheckerTest {
 

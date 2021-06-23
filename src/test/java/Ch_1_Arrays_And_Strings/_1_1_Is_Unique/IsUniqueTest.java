@@ -1,6 +1,6 @@
 package Ch_1_Arrays_And_Strings._1_1_Is_Unique;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
