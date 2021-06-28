@@ -8,5 +8,6 @@ class StringRotationTest {
     @Test
     void checkIfStringOneIsSubstringOfStringTwo() {
         assertTrue(StringRotation.isSubstring("waterbottle", "erbottlewat"));
+
     }
 }
